@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# About
+
+Website shows crucial information about myself and imitates simple blockchain
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

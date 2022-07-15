@@ -1,0 +1,40 @@
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.list-item {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    position: static;
+    display: block;
+    width: 700px;
+    margin: 4rem auto;
+}
+
+.dropdown-menu-macos {
+    display: grid;
+    gap: .25rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.dropdown-menu-macos .dropdown-item {
+    border-radius: .25rem;
+}
+
+.dropdown-item-danger {
+    color: var(--bs-red);
+}
+
+.dropdown-item-danger:hover,
+.dropdown-item-danger:focus {
+    color: #fff;
+    background-color: var(--bs-red);
+}
+
+.dropdown-item-danger.active {
+    background-color: var(--bs-red);
+}
