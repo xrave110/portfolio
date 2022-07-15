@@ -12,7 +12,7 @@ const Block = ({ id, prevHash, component, nonce, hash }) => {
                 <li className="dropdown-item d-flex justify-content-between align-items-center list-item">
                     ID: {id}
                 </li>
-                <li className="dropdown-item d-flex justify-content-between align-items-center list-item">
+                <li className="dropdown-item d-flex justify-content-between align-items-center list-item wrap-anywhere">
                     PrevHash: {prevHash}
                     <span className="badge bg-primary rounded-pill">Change me!</span>
                 </li>
@@ -20,10 +20,10 @@ const Block = ({ id, prevHash, component, nonce, hash }) => {
                     Nonce: {nonce}
                     <span className="badge bg-primary rounded-pill">Change me!</span>
                 </li>
-                <li className="dropdown-item d-flex justify-content-between align-items-center list-item">
+                <li className="dropdown-item d-flex justify-content-center align-items-center list-item">
                     {component}
                 </li>
-                <li className="dropdown-item d-flex justify-content-between align-items-center list-item">
+                <li className="dropdown-item d-flex justify-content-between align-items-center list-item wrap-anywhere">
                     Hash: {hash}
                     <span className="badge bg-primary rounded-pill">Change me!</span>
                 </li>

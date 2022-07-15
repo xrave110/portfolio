@@ -3,38 +3,46 @@
     fill: currentColor;
 }
 
+.wrap-anywhere {
+    overflow-wrap: anywhere;
+}
+
 .list-item {
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 9px;
+    width: 300px;
+    text-align: inherit;
+    white-space: inherit;
+    inline-size: 300px;
 }
 
 .dropdown-menu {
     position: static;
     display: block;
-    width: 700px;
+    width: 300px;
     margin: 4rem auto;
 }
 
 .dropdown-menu-macos {
     display: grid;
     gap: .25rem;
-    padding: .5rem;
     border-radius: .5rem;
 }
 
-.dropdown-menu-macos .dropdown-item {
+.dropdown-menu-macos .list-item {
     border-radius: .25rem;
 }
 
-.dropdown-item-danger {
+.list-item-danger {
     color: var(--bs-red);
 }
 
-.dropdown-item-danger:hover,
-.dropdown-item-danger:focus {
+.list-item-danger:hover,
+.list-item-danger:focus {
     color: #fff;
     background-color: var(--bs-red);
 }
 
-.dropdown-item-danger.active {
+.list-item-danger.active {
     background-color: var(--bs-red);
 }

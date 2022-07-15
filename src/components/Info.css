@@ -1,5 +1,24 @@
+.flex {
+    display: flex;
+}
+
+.dir-col {
+    flex-direction: column;
+}
+
 .info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.about-container {
+    inline-size: 300px;
+    padding: 10px;
+}
+
+.img-container {
+    padding: 10px;
 }
