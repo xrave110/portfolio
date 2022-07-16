@@ -1,0 +1,20 @@
+.section-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slide {
+    width: 66%;
+
+}
+
+.proof {
+    width: 33%;
+}
+
+.my-headers {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: bisque;
+}

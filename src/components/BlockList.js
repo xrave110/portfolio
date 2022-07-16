@@ -1,5 +1,5 @@
 import React from 'react';
-import Block from "./Block";
+import Block from ".block/Block";
 //import './BlockList.css';
 import { v4 as uuidv4 } from 'uuid';
 

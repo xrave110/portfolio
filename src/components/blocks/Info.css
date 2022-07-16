@@ -1,11 +1,3 @@
-.flex {
-    display: flex;
-}
-
-.dir-col {
-    flex-direction: column;
-}
-
 .info-container {
     display: flex;
     flex-direction: column;
@@ -17,8 +9,21 @@
 .about-container {
     inline-size: 300px;
     padding: 10px;
+    width: inherit;
 }
 
 .img-container {
     padding: 10px;
+}
+
+@media only screen and (min-width: 640px) {
+    .info-container {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .info-container {
+        width: 80%;
+    }
 }

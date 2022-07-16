@@ -1,10 +1,13 @@
 import './App.css';
 //import BlockList from './components/BlockList';
-import Block from './components/Block';
+import Block from './components/blocks/Block';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
-import Info from './components/Info';
+import Info from './components/blocks/Info';
+import Skills from './components/blocks/Skills';
+import Portfolio from './components/blocks/Portfolio';
+import Contacts from './components/blocks/Contacts';
 
 function App() {
   const states = [
@@ -19,9 +22,9 @@ function App() {
   const [test, setTest] = useState(10);
   const listOfComponents = [
     <Info currentState={currentState} />,
-    currentState,
-    currentState,
-    currentState,
+    <Skills currentState={currentState} />,
+    <Portfolio currentState={currentState} />,
+    <Contacts currentState={currentState} />,
   ]
 
 
@@ -54,7 +57,7 @@ function App() {
     if (+block.id !== 0) {
       block.prevHash = listOfBlocks[+block.id - 1].hash;
     }
-    console.log(`id: ${block.id} hash: ${block.hash}`);
+    //console.log(`id: ${block.id} hash: ${block.hash}`);
   }
   const createBlockchain = () => {
     let block = <Block id='' prevHash='' currentState='' nonce='' hash='' />;
@@ -63,8 +66,6 @@ function App() {
         block = <Block id={listOfBlocks[idx].id} prevHash={listOfBlocks[idx].prevHash} component={listOfComponents[idx]} nonce={listOfBlocks[idx].nonce} hash={listOfBlocks[idx].hash} />;
       }
     }
-    console.log(`block.props:`);
-    console.log(block.props);
     return block;
   }
 
@@ -77,17 +78,15 @@ function App() {
         nonce: 0,
         hash: '',
       }));
-      console.log(listOfBlocks);
       calcAllNonces()
         .then(() => setListOfBlocks(listOfBlocks))
     }
   }, [currentState]);
 
-  console.log(listOfBlocks)
   return (
     <div className="App">
       <Header setCurrentState={setCurrentState} />
-      <div>{createBlockchain()}</div>
+      {createBlockchain()}
       {/* <BlockList listOfBlocks={listOfBlocks} currentState={currentState} /> */}
     </div>
   );

@@ -1,6 +1,7 @@
 import "./Header.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
+import logo from "../imgs/ravenImg.svg";
 
 function Header({ setCurrentState }) {
     const [styleClassWhoAmI, setStyleClassWhoAmI] = useState("nav-link active");
@@ -36,34 +37,19 @@ function Header({ setCurrentState }) {
         setCurrentState("Contact")
     }
     return (
-        <div className="container">
-            <header className="header-style py-3 mb-4 border-bottom">
-                <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <svg className="bi me-2" width="40" height="32"></svg>
-                    <span className="fs-4">xRave110 portfolio</span>
-                </a>
+        <div className="container header-style py-3 mb-4 border-bottom">
+            <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src={logo} alt="" style={{ width: "48px", height: "48px" }} />
+                <span className="fs-4">xRave110 portfolio</span>
+            </a>
 
-                <ul className="nav nav-pills">
-                    <li className="nav-item"><a href="#" onClick={handleWhoAmI} className={styleClassWhoAmI} aria-current="page">Who am I?</a></li>
-                    <li className="nav-item"><a href="#" onClick={handleSkills} className={styleClassSkills}>Skills</a></li>
-                    <li className="nav-item"><a href="#" onClick={handlePortfolio} className={styleClassPortfolio}>Portfolio</a></li>
-                    <li className="nav-item"><a href="#" onClick={handleContact} className={styleClassContact}>Contact</a></li>
-                </ul>
-            </header>
+            <ul className="nav nav-pills">
+                <li className="nav-item"><a href="#" onClick={handleWhoAmI} className={styleClassWhoAmI} aria-current="page">Who am I?</a></li>
+                <li className="nav-item"><a href="#" onClick={handleSkills} className={styleClassSkills}>Skills</a></li>
+                <li className="nav-item"><a href="#" onClick={handlePortfolio} className={styleClassPortfolio}>Portfolio</a></li>
+                <li className="nav-item"><a href="#" onClick={handleContact} className={styleClassContact}>Contact</a></li>
+            </ul>
         </div>
-        // <Nav variant="tabs" defaultActiveKey="/home">
-        //     <Nav.Item>
-        //         <Nav.Link href="/home">Active</Nav.Link>
-        //     </Nav.Item>
-        //     <Nav.Item>
-        //         <Nav.Link eventKey="link-1">Option 2</Nav.Link>
-        //     </Nav.Item>
-        //     <Nav.Item>
-        //         <Nav.Link eventKey="disabled" disabled>
-        //             Disabled
-        //         </Nav.Link>
-        //     </Nav.Item>
-        // </Nav>
     );
 }
 

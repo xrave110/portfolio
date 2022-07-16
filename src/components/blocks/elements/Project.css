@@ -1,0 +1,36 @@
+.my-card {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    width: 48%;
+}
+
+.text-container {
+    padding: 4px;
+}
+
+.card-title {
+    font-size: 11px;
+}
+
+.my-btn {
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 1240px) {
+    .my-card {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .my-card {
+        padding: 12px;
+        width: 23%;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+}

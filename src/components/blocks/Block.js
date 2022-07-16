@@ -1,13 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect } from 'react';
 import './Block.css';
 
 const Block = ({ id, prevHash, component, nonce, hash }) => {
-    useEffect(() => {
-        console.log({ hash })
-    })
     return (
-        <div className="block">
+        <main className="block">
             <ul className="dropdown-menu dropdown-menu-dark dropdown-menu-macos">
                 <li className="dropdown-item d-flex justify-content-between align-items-center list-item">
                     ID: {id}
@@ -28,7 +24,7 @@ const Block = ({ id, prevHash, component, nonce, hash }) => {
                     <span className="badge bg-primary rounded-pill">Change me!</span>
                 </li>
             </ul>
-        </div>
+        </main>
     );
 }
 

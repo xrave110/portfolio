@@ -1,0 +1,40 @@
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-progress {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 64%;
+}
+
+.my-badges {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 32%;
+    font-size: 9px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.my-badge {
+    width: 48%;
+    white-space: inherit;
+}
+
+@media only screen and (min-width: 1240px) {
+    .my-badges {
+        font-size: 11px;
+    }
+
+    .my-badge {
+        width: 32%;
+    }
+}

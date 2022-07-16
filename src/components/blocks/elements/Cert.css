@@ -1,0 +1,43 @@
+.my-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31%;
+    padding: 3px;
+}
+
+.card-body {
+    padding: 2px;
+}
+
+.cert-tittle {
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+.cert-text {
+    font-size: inherit;
+    margin-bottom: 3px;
+}
+
+.my-btn {
+    padding: 3px;
+    font-size: inherit;
+}
+
+@media only screen and (min-width: 1240px) {
+    .my-card {
+        width: 23%;
+    }
+
+    .cert-tittle {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .my-card {
+        padding: 12px;
+        width: 18%;
+    }
+}
