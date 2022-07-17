@@ -1,5 +1,6 @@
 import Contact from "./elements/Contact";
 import './Contacts.css';
+import { v4 as uuidv4 } from 'uuid';
 
 const Contacts = ({ currentState }) => {
     const listOfMedia = [
@@ -36,7 +37,7 @@ const Contacts = ({ currentState }) => {
         </svg></div>;
     function createContacts() {
         const ret = listOfMedia.map(({ btn, logo, link }) => {
-            return <Contact link={link} color={btn} logo={logo} />
+            return <Contact key={uuidv4()} link={link} color={btn} logo={logo} />
         })
         return ret;
     }

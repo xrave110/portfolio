@@ -1,10 +1,16 @@
+h6 {
+    color: bisque;
+}
+
 .projects-container {
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .certs-container {
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

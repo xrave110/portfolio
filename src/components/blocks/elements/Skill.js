@@ -9,7 +9,7 @@ const Skill = ({ skill, exp, pow, color }) => {
         "cert": 'bg-info',
         "this website": 'bg-warning',
         "native": 'bg-danger',
-        "github repo": 'bg-primary',
+        "github repo": 'bg-success',
     }
     exp = exp.toString()
     function createBadges() {

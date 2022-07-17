@@ -8,6 +8,7 @@ import Info from './components/blocks/Info';
 import Skills from './components/blocks/Skills';
 import Portfolio from './components/blocks/Portfolio';
 import Contacts from './components/blocks/Contacts';
+import BlockList from './components/BlockList';
 
 function App() {
   const states = [
@@ -86,8 +87,8 @@ function App() {
   return (
     <div className="App">
       <Header setCurrentState={setCurrentState} />
-      {createBlockchain()}
-      {/* <BlockList listOfBlocks={listOfBlocks} currentState={currentState} /> */}
+      {/* {createBlockchain()} */}
+      <BlockList listOfBlocks={listOfBlocks} currentState={currentState} />
     </div>
   );
 }

@@ -31,7 +31,7 @@
     }
 
     .cert-tittle {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -39,5 +39,9 @@
     .my-card {
         padding: 12px;
         width: 18%;
+    }
+
+    .cert-tittle {
+        font-size: 16x;
     }
 }

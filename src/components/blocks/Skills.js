@@ -1,6 +1,7 @@
 import Skill from "./elements/Skill";
 import "./Skills.css";
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const Skills = ({ currentState }) => {
     const techs = [{
@@ -57,7 +58,7 @@ const Skills = ({ currentState }) => {
     {
         'skill': 'Git',
         'exp': 75,
-        'pow': ['github repo']
+        'pow': ['previous job', 'github repo']
     },
     ]
     const others = [
@@ -101,7 +102,7 @@ const Skills = ({ currentState }) => {
         let idx = 0;
         let listOfSkills = skills.map(({ skill, exp, pow }) => {
             idx %= colors.length;
-            return <Skill skill={skill} exp={exp} pow={pow} color={colors[idx++]} />
+            return <Skill key={uuidv4()} skill={skill} exp={exp} pow={pow} color={colors[idx++]} />
         })
         //console.log(listOfSkills);
         return listOfSkills;

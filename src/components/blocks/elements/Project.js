@@ -8,7 +8,7 @@ const Project = ({ link, title, desc, color }) => {
                 <h6 className="card-title">{title}</h6>
                 <p className="card-text">{desc}</p>
             </div>
-            <a href={link} className="btn btn-primary my-btn" target="_blank">Go to project</a>
+            <a href={link} className="btn btn-primary my-btn" target="_blank" rel="noreferrer">Go to project</a>
         </div>
     )
 }
