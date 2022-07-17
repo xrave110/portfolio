@@ -87,8 +87,8 @@ function App() {
   return (
     <div className="App">
       <Header setCurrentState={setCurrentState} />
-      {/* {createBlockchain()} */}
-      <BlockList listOfBlocks={listOfBlocks} currentState={currentState} />
+      {createBlockchain()}
+      {/* <BlockList listOfBlocks={listOfBlocks} currentState={currentState} /> */}
     </div>
   );
 }
