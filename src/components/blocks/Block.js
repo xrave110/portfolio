@@ -10,18 +10,18 @@ const Block = ({ id, prevHash, component, nonce, hash }) => {
                 </li>
                 <li className="dropdown-item d-flex justify-content-between align-items-center list-item wrap-anywhere">
                     PrevHash: {prevHash}
-                    <span className="badge bg-primary rounded-pill">Change me!</span>
+                    {/* <span className="badge bg-primary rounded-pill">Change me!</span> */}
                 </li>
                 <li className="dropdown-item d-flex justify-content-between align-items-center list-item">
                     Nonce: {nonce}
-                    <span className="badge bg-primary rounded-pill">Change me!</span>
+                    {/* <span className="badge bg-primary rounded-pill">Change me!</span> */}
                 </li>
                 <li className="dropdown-item d-flex justify-content-center align-items-center list-item">
                     {component}
                 </li>
                 <li className="dropdown-item d-flex justify-content-between align-items-center list-item wrap-anywhere">
                     Hash: {hash}
-                    <span className="badge bg-primary rounded-pill">Change me!</span>
+                    {/* <span className="badge bg-primary rounded-pill">Change me!</span> */}
                 </li>
             </ul>
         </main>

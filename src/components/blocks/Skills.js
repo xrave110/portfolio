@@ -104,7 +104,6 @@ const Skills = ({ currentState }) => {
             idx %= colors.length;
             return <Skill key={uuidv4()} skill={skill} exp={exp} pow={pow} color={colors[idx++]} />
         })
-        //console.log(listOfSkills);
         return listOfSkills;
     }
     return (

@@ -1,3 +1,11 @@
+.a-color {
+    color: lightblue;
+}
+
+a:active {
+    color: bisque;
+}
+
 .info-container {
     display: flex;
     flex-direction: column;

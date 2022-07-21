@@ -20,7 +20,6 @@ function App() {
 
   let [listOfBlocks, setListOfBlocks] = useState([]);
   const [currentState, setCurrentState] = useState("Who Am I?");
-  const [test, setTest] = useState(10);
   const listOfComponents = [
     <Info currentState={currentState} />,
     <Skills currentState={currentState} />,
@@ -51,14 +50,10 @@ function App() {
 
       // convert bytes to hex string
       block.hash = await hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-      // console.log(`Hash: ${block.hash}`);
-      // console.log(`Hash: ${block.hash[0]}`);
-      // console.log(`Hash: ${block.hash[1]}`);
     }
     if (+block.id !== 0) {
       block.prevHash = listOfBlocks[+block.id - 1].hash;
     }
-    //console.log(`id: ${block.id} hash: ${block.hash}`);
   }
   const createBlockchain = () => {
     let block = <Block id='' prevHash='' currentState='' nonce='' hash='' />;

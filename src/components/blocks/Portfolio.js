@@ -94,7 +94,6 @@ const Projects = ({ currentState }) => {
             idx = idx % projColors.length;
             return <Project key={uuidv4()} link={link} title={title} desc={desc} color={projColors[idx++]} />
         })
-        console.log(ret);
         return ret;
     }
     function createCerts() {
@@ -103,7 +102,6 @@ const Projects = ({ currentState }) => {
             idx = idx % certColors.length;
             return <Cert key={uuidv4()} link={link} title={title} desc={desc} color={certColors[idx++]} />
         })
-        console.log(ret);
         return ret;
     }
     return (
