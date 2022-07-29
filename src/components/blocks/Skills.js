@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 const Skills = ({ currentState }) => {
     const techs = [{
         'skill': 'C',
-        'exp': 95,
+        'exp': 90,
         'pow': ['previous job']
     },
     {
@@ -32,21 +32,21 @@ const Skills = ({ currentState }) => {
     },
     {
         'skill': 'Brownie',
-        'exp': 85,
+        'exp': 80,
         'pow': ['github projects']
     },
     {
         'skill': 'Web3',
-        'exp': 85,
+        'exp': 80,
         'pow': ['github projects', 'cert']
     },
     {
-        'skill': 'Truffle',
-        'exp': 75,
-        'pow': ['github projects', 'cert']
+        'skill': 'Git',
+        'exp': 80,
+        'pow': ['previous job', 'github repo']
     },
     {
-        'skill': 'Hardhat',
+        'skill': 'Hardhat/Ethers',
         'exp': 75,
         'pow': ['github projects']
     },
@@ -56,10 +56,16 @@ const Skills = ({ currentState }) => {
         'pow': ['github projects', 'this website', 'cert']
     },
     {
-        'skill': 'Git',
-        'exp': 75,
-        'pow': ['previous job', 'github repo']
+        'skill': 'Truffle',
+        'exp': 65,
+        'pow': ['github projects', 'cert']
     },
+    {
+        'skill': 'OpenZeppelin',
+        'exp': 65,
+        'pow': ['github projects', 'cert']
+    },
+
     ]
     const others = [
         {

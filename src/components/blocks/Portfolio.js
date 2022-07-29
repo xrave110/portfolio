@@ -1,6 +1,7 @@
 import Project from "./elements/Project";
 import Cert from "./elements/Cert";
 import "./Portfolio.css"
+import Istqb from '../../certs/ISTQB.pdf'
 import Javascript from '../../certs/Javascript.pdf';
 import DappProgramming from '../../certs/DappProgramming.pdf';
 import Chainlink101 from '../../certs/Chainlink101.pdf';
@@ -9,6 +10,7 @@ import GameProgramming from '../../certs/GameProgramming.pdf';
 import SmartContractProgramming from '../../certs/SmartContractProgramming.pdf';
 import SmartContractSecurity from '../../certs/SmartContractSecurity.pdf';
 import ReactWebDevelopment from '../../certs/ReactWebDevelopment.pdf';
+
 import { v4 as uuidv4 } from 'uuid';
 
 const Projects = ({ currentState }) => {
@@ -41,9 +43,9 @@ const Projects = ({ currentState }) => {
     ];
     const listOfCerts = [
         {
-            'title': 'ISTQB',
-            'desc': 'Foundation level',
-            'link': ''
+            'title': 'ISTQB foundation level',
+            'desc': 'Essential testing knowledge that can be put to practical use and explains the terminology and concepts that are used worldwide in the testing domain.',
+            'link': Istqb
         },
         {
             'title': 'Javascript',

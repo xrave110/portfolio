@@ -1,6 +1,7 @@
 import Contact from "./elements/Contact";
 import './Contacts.css';
 import { v4 as uuidv4 } from 'uuid';
+import CV from "../../certs/CV.pdf";
 
 const Contacts = ({ currentState }) => {
     const listOfMedia = [
@@ -52,7 +53,7 @@ const Contacts = ({ currentState }) => {
                 <p className="line-1 anim-typewriter">Email: xRave110@protonmail.com</p>
             </div>
 
-            <Contact link={''} color='bg-warning' logo={downloadLogo} />
+            <Contact link={CV} color='bg-warning' logo={downloadLogo} />
         </div>
     )
 }
