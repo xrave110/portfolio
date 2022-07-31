@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     width: 31%;
-    padding: 3px;
+    padding: 4px;
+    margin-bottom: 4px;
 }
 
 .card-body {

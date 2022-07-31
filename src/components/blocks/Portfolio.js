@@ -26,14 +26,24 @@ const Projects = ({ currentState }) => {
             'link': 'https://github.com/xrave110/UserDashboard'
         },
         {
-            'title': 'Lottery',
-            'desc': 'Lottery with usage of chainlink with integration and unit tests',
-            'link': 'https://github.com/xrave110/Lottery'
+            'title': 'DeFi brownie',
+            'desc': 'Full stack defi project with brownie',
+            'link': 'https://github.com/xrave110/defi_brownie'
         },
         {
             'title': 'Multi Sig Vault',
             'desc': 'Vault contract with multiple signatures with full unit tests',
             'link': 'https://github.com/xrave110/MultiSigVault'
+        },
+        {
+            'title': 'DAO',
+            'desc': 'DAO for simple NFT purchases',
+            'link': 'https://github.com/xrave110/DAO'
+        },
+        {
+            'title': 'Lottery',
+            'desc': 'Lottery with usage of chainlink with integration and unit tests',
+            'link': 'https://github.com/xrave110/Lottery'
         },
         {
             'title': 'Knight Game',
@@ -44,7 +54,7 @@ const Projects = ({ currentState }) => {
     const listOfCerts = [
         {
             'title': 'ISTQB foundation level',
-            'desc': 'Essential testing knowledge that can be put to practical use and explains the terminology and concepts that are used worldwide in the testing domain.',
+            'desc': 'Testing knowledge that can be put to practical use with terminology and concepts that are used worldwide in the testing domain.',
             'link': Istqb
         },
         {

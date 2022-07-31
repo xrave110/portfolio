@@ -1,13 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import "./Info.css";
-import avatar from "../../imgs/avatar1.jpg";
+// import avatar from "../../imgs/avatar1.jpg";
 
 const Info = ({ currentState }) => {
     return (
         <div className="info-container">
             <h3>{currentState}</h3>
-            <img src={avatar} className="bd-placeholder-img rounded-circle img-container" width="170" height="182" />
+            {/* <img src={avatar} className="bd-placeholder-img rounded-circle img-container" width="170" height="192" /> */}
             <div className="about-container">
                 <h6 className='badge bg-info rounded-pill'>Automotive experience</h6>
                 <p className="info-paragraph">My name is Kamil and I am Software Engineer with 5 years experience in automotive industry.

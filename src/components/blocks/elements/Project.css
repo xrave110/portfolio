@@ -1,8 +1,8 @@
 .my-card {
-    padding: 5px;
+    padding: 3px;
+    margin-bottom: 4px;
     display: flex;
     flex-direction: column;
-    margin: 1px;
     width: 48%;
 }
 
