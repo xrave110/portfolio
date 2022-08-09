@@ -10,13 +10,13 @@ const Info = ({ currentState }) => {
             {/* <img src={avatar} className="bd-placeholder-img rounded-circle img-container" width="170" height="192" /> */}
             <div className="about-container">
                 <h6 className='badge bg-info rounded-pill'>Automotive experience</h6>
-                <p className="info-paragraph">My name is Kamil and I am Software Engineer with 5 years experience in automotive industry.
+                <p className="info-paragraph">My name is Kamil and I am a Software Engineer with 5 years experience in automotive industry.
                     During my career I have managed to develop and test multiple Software Components using C and Python. I was strongly involved in unit and integration
-                    testing for CAN messages. At the end of my automotive journey I have become Software Integrator. It allowed me to focus more on integration topics (integrations tests, scripting, builds).
+                    testing for CAN messages. At the end of my automotive journey I have become  Software Integrator. It allowed me to focus more on integration topics (integration tests, scripting and builds).
                 </p>
                 <h6 className='badge bg-success rounded-pill'>Blockchain experience</h6>
-                <p className="info-paragraph">Since 2019 I have got interested in blockchain technology, especially in DeFi.
-                    I have started using DeFi protocols and was amazed how it works without any intermediares - just a math and peers.
+                <p className="info-paragraph">In 2019 I got interested in blockchain technology, especially in DeFi and
+                    I have been using DeFi protocols ever since. I was absolutely amazed how it works without any intermediares - just maths and peers.
                     I have been taking part in Moralis academy for a year and then continued my blockchain adventure with my own projects.
                     Besides <a href='https://academy.moralis.io/' target="_blank" rel="noreferrer" className='a-color'>Moralis Academy</a> my best places to learn were i.a:
                     <ul>
@@ -31,8 +31,8 @@ const Info = ({ currentState }) => {
 
                 <h6 className='badge bg-primary rounded-pill'>Hobbies</h6>
                 <p className="info-paragraph">
-                    My hobbies have been changing a lot during lifetime but there are some activities which remained.
-                    Such activities for me are sking, biking and walking through mountains or forests.
+                    My hobbies have been changing a lot during lifetime however there are some activities which I have always taking pleasure.
+                    By all means such activities for me are sking, biking and hiking.
                     Besides that I am keen on financial and crypto markets.
                 </p>
 
