@@ -17,7 +17,7 @@ const Info = ({ currentState }) => {
                 <h6 className='badge bg-success rounded-pill'>Blockchain experience</h6>
                 <p className="info-paragraph">In 2019 I got interested in blockchain technology, especially in DeFi and
                     I have been using DeFi protocols ever since. I was absolutely amazed how it works without any intermediares - just maths and peers.
-                    I have been taking part in Moralis academy for a year and then continued my blockchain adventure with my own projects.
+                    I participated in one year Moralis academy and then continued my blockchain adventure with my own projects.
                     Besides <a href='https://academy.moralis.io/' target="_blank" rel="noreferrer" className='a-color'>Moralis Academy</a> my best places to learn were i.a:
                     <ul>
                         <li><a href='https://www.youtube.com/c/PatrickCollins' target="_blank" rel="noreferrer" className='a-color'>PatrickColins</a></li>

@@ -16,12 +16,12 @@ const Skills = ({ currentState }) => {
     },
     {
         'skill': 'Solidity',
-        'exp': 75,
+        'exp': 80,
         'pow': ['github projects', 'cert']
     },
     {
         'skill': 'Javascript',
-        'exp': 75,
+        'exp': 70,
         'pow': ['github projects', 'cert']
     },
     ]
@@ -42,17 +42,17 @@ const Skills = ({ currentState }) => {
     },
     {
         'skill': 'Git',
-        'exp': 80,
+        'exp': 85,
         'pow': ['previous job', 'github repo']
     },
     {
         'skill': 'Hardhat/Ethers',
-        'exp': 75,
+        'exp': 70,
         'pow': ['github projects']
     },
     {
         'skill': 'React',
-        'exp': 75,
+        'exp': 70,
         'pow': ['github projects', 'this website', 'cert']
     },
     {
