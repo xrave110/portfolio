@@ -21,6 +21,16 @@ const Projects = ({ currentState }) => {
             'link': 'https://github.com/xrave110/flashloan'
         },
         {
+            'title': 'Multi Sig Vault',
+            'desc': 'Vault contract with multiple signatures with full unit tests',
+            'link': 'https://github.com/xrave110/MultiSigVault'
+        },
+        {
+            'title': 'OWNly Twitter',
+            'desc': 'Platform which allows to get funding for creators using NFTs - twitter feature',
+            'link': 'https://github.com/dukepat/OWNly_Twitter/tree/main/contracts'
+        },
+        {
             'title': 'User Dashboard',
             'desc': 'User dashboard created with moralis SDK',
             'link': 'https://github.com/xrave110/UserDashboard'
@@ -29,11 +39,6 @@ const Projects = ({ currentState }) => {
             'title': 'DeFi brownie',
             'desc': 'Full stack defi project with brownie',
             'link': 'https://github.com/xrave110/defi_brownie'
-        },
-        {
-            'title': 'Multi Sig Vault',
-            'desc': 'Vault contract with multiple signatures with full unit tests',
-            'link': 'https://github.com/xrave110/MultiSigVault'
         },
         {
             'title': 'DAO',
@@ -46,10 +51,11 @@ const Projects = ({ currentState }) => {
             'link': 'https://github.com/xrave110/Lottery'
         },
         {
-            'title': 'Knight Game',
-            'desc': 'Game with NFTs',
-            'link': 'https://github.com/xrave110/KnightGame'
+            'title': 'Box',
+            'desc': 'Fully configured contract visualising work of transparent proxy',
+            'link': 'https://github.com/xrave110/box'
         },
+
     ];
     const listOfCerts = [
         {

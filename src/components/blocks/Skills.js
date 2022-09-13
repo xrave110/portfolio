@@ -31,6 +31,11 @@ const Skills = ({ currentState }) => {
         'pow': ['previous job', 'github projects']
     },
     {
+        'skill': 'Git',
+        'exp': 85,
+        'pow': ['previous job', 'github repo']
+    },
+    {
         'skill': 'Brownie',
         'exp': 80,
         'pow': ['github projects']
@@ -41,11 +46,6 @@ const Skills = ({ currentState }) => {
         'pow': ['github projects', 'cert']
     },
     {
-        'skill': 'Git',
-        'exp': 85,
-        'pow': ['previous job', 'github repo']
-    },
-    {
         'skill': 'Hardhat/Ethers',
         'exp': 70,
         'pow': ['github projects']
@@ -53,7 +53,7 @@ const Skills = ({ currentState }) => {
     {
         'skill': 'React',
         'exp': 70,
-        'pow': ['github projects', 'this website', 'cert']
+        'pow': ['github projects', 'this website']
     },
     {
         'skill': 'Truffle',
@@ -79,6 +79,11 @@ const Skills = ({ currentState }) => {
             'pow': ['github projects', 'cert']
         },
         {
+            'skill': 'NFTs',
+            'exp': 80,
+            'pow': ['github projects', 'cert']
+        },
+        {
             'skill': 'English',
             'exp': 80,
             'pow': ['this website']
@@ -92,11 +97,6 @@ const Skills = ({ currentState }) => {
             'skill': 'Ethereum blockchain',
             'exp': 80,
             'pow': ['cert']
-        },
-        {
-            'skill': 'NFTs',
-            'exp': 70,
-            'pow': ['github projects', 'cert']
         },
     ]
     function createInfo(skills) {
