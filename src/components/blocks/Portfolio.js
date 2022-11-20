@@ -16,6 +16,12 @@ import { v4 as uuidv4 } from 'uuid';
 const Projects = ({ currentState }) => {
     const listOfProjects = [
         {
+            'title': 'Liquidity Wars',
+            'desc': 'No-loss game where players fight each other to gain as much LP rewards as they can by developing infrastructure and rob other players.',
+            'link': 'https://github.com/Liquidity-Wars',
+            'live': 'https://liquiditywars.xyz/'
+        },
+        {
             'title': 'Flashloan',
             'desc': 'Flashloan/DeFi related content: swaps, arbitrages, liquidity providing, lending, borrowing',
             'link': 'https://github.com/xrave110/flashloan'
@@ -108,9 +114,9 @@ const Projects = ({ currentState }) => {
     const certColors = ['bg-secondary', 'bg-dark'];
     function createProjects() {
         let idx = 0;
-        let ret = listOfProjects.map(({ title, desc, link }) => {
+        let ret = listOfProjects.map(({ title, desc, link, live }) => {
             idx = idx % projColors.length;
-            return <Project key={uuidv4()} link={link} title={title} desc={desc} color={projColors[idx++]} />
+            return <Project key={uuidv4()} link={link} title={title} desc={desc} color={projColors[idx++]} web={live} />
         })
         return ret;
     }

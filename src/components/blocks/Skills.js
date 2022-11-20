@@ -11,49 +11,50 @@ const Skills = ({ currentState }) => {
     },
     {
         'skill': 'Python',
-        'exp': 90,
+        'exp': 85,
         'pow': ['previous job', 'github projects']
     },
     {
         'skill': 'Solidity',
-        'exp': 80,
+        'exp': 85,
         'pow': ['github projects', 'cert']
     },
     {
         'skill': 'Javascript',
-        'exp': 70,
+        'exp': 75,
         'pow': ['github projects', 'cert']
     },
     ]
     const toolsets = [{
         'skill': 'Pytest',
-        'exp': 90,
+        'exp': 85,
         'pow': ['previous job', 'github projects']
     },
-    {
-        'skill': 'Git',
-        'exp': 85,
-        'pow': ['previous job', 'github repo']
-    },
+
     {
         'skill': 'Brownie',
         'exp': 80,
         'pow': ['github projects']
     },
     {
-        'skill': 'Web3',
+        'skill': 'Hardhat/Ethers/Chai',
         'exp': 80,
-        'pow': ['github projects', 'cert']
-    },
-    {
-        'skill': 'Hardhat/Ethers',
-        'exp': 70,
         'pow': ['github projects']
     },
     {
-        'skill': 'React',
+        'skill': 'Web3',
         'exp': 70,
-        'pow': ['github projects', 'this website']
+        'pow': ['github projects', 'cert']
+    },
+    {
+        'skill': 'OpenZeppelin',
+        'exp': 70,
+        'pow': ['github projects', 'cert']
+    },
+    {
+        'skill': 'Git',
+        'exp': 70,
+        'pow': ['previous job', 'github repo']
     },
     {
         'skill': 'Truffle',
@@ -61,10 +62,11 @@ const Skills = ({ currentState }) => {
         'pow': ['github projects', 'cert']
     },
     {
-        'skill': 'OpenZeppelin',
+        'skill': 'React',
         'exp': 65,
-        'pow': ['github projects', 'cert']
+        'pow': ['github projects', 'this website']
     },
+
 
     ]
     const others = [
@@ -79,8 +81,8 @@ const Skills = ({ currentState }) => {
             'pow': ['github projects', 'cert']
         },
         {
-            'skill': 'NFTs',
-            'exp': 80,
+            'skill': 'Chainlink utils',
+            'exp': 85,
             'pow': ['github projects', 'cert']
         },
         {
@@ -97,6 +99,11 @@ const Skills = ({ currentState }) => {
             'skill': 'Ethereum blockchain',
             'exp': 80,
             'pow': ['cert']
+        },
+        {
+            'skill': 'NFTs',
+            'exp': 75,
+            'pow': ['github projects', 'cert']
         },
     ]
     function createInfo(skills) {
