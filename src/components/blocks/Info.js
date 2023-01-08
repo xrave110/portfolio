@@ -12,7 +12,7 @@ const Info = ({ currentState }) => {
                 <h6 className='badge bg-info rounded-pill'>Automotive experience</h6>
                 <p className="info-paragraph">My name is Kamil and I am a Software Engineer with 5 years experience in automotive industry.
                     During my career I have managed to develop and test multiple Software Components using C and Python. I was strongly involved in unit and integration
-                    testing for CAN messages. At the end of my automotive journey I have become  Software Integrator. It allowed me to focus more on integration topics (integration tests, scripting and builds).
+                    testing for CAN messages. I have also some integration experience like integration tests, scripting and handling builds.
                 </p>
                 <h6 className='badge bg-success rounded-pill'>Blockchain experience</h6>
                 <p className="info-paragraph">In 2019 I got interested in blockchain technology, especially in DeFi and

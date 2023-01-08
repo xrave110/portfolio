@@ -18,6 +18,11 @@
     font-size: 12px;
 }
 
+.buttons-group {
+    display: flex;
+    flex-direction: column;
+}
+
 @media only screen and (min-width: 1240px) {
     .my-card {
         width: 30%;

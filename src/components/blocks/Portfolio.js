@@ -17,7 +17,7 @@ const Projects = ({ currentState }) => {
     const listOfProjects = [
         {
             'title': 'Liquidity Wars',
-            'desc': 'No-loss game where players fight each other to gain as much LP rewards as they can by developing infrastructure and rob other players.',
+            'desc': 'Game where players fight each other to gain as many LP rewards as they can by upgrading cuildings and rob other players.',
             'link': 'https://github.com/Liquidity-Wars',
             'live': 'https://liquiditywars.xyz/'
         },
@@ -66,7 +66,7 @@ const Projects = ({ currentState }) => {
     const listOfCerts = [
         {
             'title': 'ISTQB foundation level',
-            'desc': 'Testing knowledge that can be put to practical use with terminology and concepts that are used worldwide in the testing domain.',
+            'desc': 'Testing knowledge that can be put to practical use with terms and concepts that are used worldwide in the testing domain.',
             'link': Istqb
         },
         {

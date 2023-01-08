@@ -22,6 +22,7 @@
 }
 
 .my-btn {
+    margin: 3px;
     padding: 3px;
     font-size: inherit;
 }

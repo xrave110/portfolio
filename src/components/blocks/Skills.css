@@ -1,17 +1,18 @@
 .section-container {
     display: flex;
     justify-content: space-between;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.slide {
-    width: 66%;
+/* .slide {
+    width: 73%;
 
 }
 
 .proof {
-    width: 33%;
-}
+    width: 25%;
+} */
 
 .my-headers {
     margin-top: 5px;
