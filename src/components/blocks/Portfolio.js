@@ -17,7 +17,7 @@ const Projects = ({ currentState }) => {
     const listOfProjects = [
         {
             'title': 'Liquidity Wars',
-            'desc': 'Game where players fight each other to gain as many LP rewards as they can by upgrading cuildings and rob other players.',
+            'desc': 'Game where players fight each other to gain as many LP rewards as they can by upgrading buildings and rob other players.',
             'link': 'https://github.com/Liquidity-Wars',
             'live': 'https://liquiditywars.xyz/'
         },
