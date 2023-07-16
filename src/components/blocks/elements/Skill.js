@@ -4,7 +4,7 @@ import "./Skill.css";
 const Skill = ({ skill, exp, pow, color }) => {
     const classProperties = "progress-bar progress-bar-striped progress-bar-animated " + color;
     const badgeColorMapping = {
-        "previous job": 'bg-primary',
+        "job": 'bg-primary',
         "github projects": 'bg-success',
         "cert": 'bg-info',
         "this website": 'bg-warning',

@@ -7,12 +7,12 @@ const Skills = ({ currentState }) => {
     const techs = [{
         'skill': 'C',
         'exp': 90,
-        'pow': ['previous job']
+        'pow': ['job']
     },
     {
         'skill': 'Python',
         'exp': 85,
-        'pow': ['previous job', 'github projects']
+        'pow': ['job', 'github projects']
     },
     {
         'skill': 'Solidity',
@@ -21,14 +21,14 @@ const Skills = ({ currentState }) => {
     },
     {
         'skill': 'Javascript',
-        'exp': 75,
+        'exp': 70,
         'pow': ['github projects', 'cert']
     },
     ]
     const toolsets = [{
         'skill': 'Pytest',
-        'exp': 85,
-        'pow': ['previous job', 'github projects']
+        'exp': 80,
+        'pow': ['job', 'github projects']
     },
 
     {
@@ -54,7 +54,7 @@ const Skills = ({ currentState }) => {
     {
         'skill': 'Git',
         'exp': 70,
-        'pow': ['previous job', 'github repo']
+        'pow': ['job', 'github repo']
     },
     {
         'skill': 'Truffle',
@@ -93,12 +93,17 @@ const Skills = ({ currentState }) => {
         {
             'skill': 'ISTQB',
             'exp': 80,
-            'pow': ['previous job', 'cert']
+            'pow': ['job', 'cert']
         },
         {
             'skill': 'Ethereum blockchain',
             'exp': 80,
             'pow': ['cert']
+        },
+        {
+            'skill': 'Cryptography',
+            'exp': 80,
+            'pow': ['job']
         },
         {
             'skill': 'NFTs',

@@ -27,6 +27,11 @@ const Projects = ({ currentState }) => {
             'link': 'https://github.com/xrave110/flashloan'
         },
         {
+            'title': 'Smart Vault',
+            'desc': 'Multi Signature Vault with rebalancing and compounding system',
+            'link': 'https://github.com/0xBcamp/March-2023-Sierra'
+        },
+        {
             'title': 'Multi Sig Vault',
             'desc': 'Vault contract with multiple signatures with full unit tests',
             'link': 'https://github.com/xrave110/MultiSigVault'
@@ -45,11 +50,6 @@ const Projects = ({ currentState }) => {
             'title': 'DeFi brownie',
             'desc': 'Full stack defi project with brownie',
             'link': 'https://github.com/xrave110/defi_brownie'
-        },
-        {
-            'title': 'DAO',
-            'desc': 'DAO for simple NFT purchases',
-            'link': 'https://github.com/xrave110/DAO'
         },
         {
             'title': 'Lottery',
