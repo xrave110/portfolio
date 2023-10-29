@@ -26,6 +26,10 @@ const Info = ({ currentState }) => {
                         <li><a href='https://devpost.com/software/liquidity-wars' target="_blank" rel="noreferrer" className='a-color'>Chainlink Fall 2022 Hackathon</a> - Idea creator, smart contract designer, developer and tester for <b>Liquidity Wars</b> project</li>
                         <li><a href='https://moralis.io/filecoin-hackathon/winners/' target="_blank" rel="noreferrer" className='a-color'>1,2, Web3 Hackathon</a> - Smart contract designer, developer and tester for <b>OWNly</b></li>
                     </ul>
+                    Moreover I attended in apprenticeship ByteMasons program which boosted my knowledge about profesional smart contract development:
+                    <ul>
+                        <li><a href='https://bcamp.dev/byte-masons-apprenticeship' target="_blank" rel="noreferrer" className='a-color'>Byte Masons Apprenticeship</a></li>
+                    </ul>
                 </p>
 
                 <h6 className='badge bg-primary rounded-pill'>Hobbies</h6>

@@ -25,47 +25,42 @@ const Skills = ({ currentState }) => {
         'pow': ['github projects', 'cert']
     },
     ]
-    const toolsets = [{
-        'skill': 'Pytest',
-        'exp': 80,
-        'pow': ['job', 'github projects']
-    },
-
-    {
-        'skill': 'Brownie',
-        'exp': 80,
-        'pow': ['github projects']
-    },
-    {
-        'skill': 'Hardhat/Ethers/Chai',
-        'exp': 80,
-        'pow': ['github projects']
-    },
-    {
-        'skill': 'Web3',
-        'exp': 70,
-        'pow': ['github projects', 'cert']
-    },
-    {
-        'skill': 'OpenZeppelin',
-        'exp': 70,
-        'pow': ['github projects', 'cert']
-    },
-    {
-        'skill': 'Git',
-        'exp': 70,
-        'pow': ['job', 'github repo']
-    },
-    {
-        'skill': 'Truffle',
-        'exp': 65,
-        'pow': ['github projects', 'cert']
-    },
-    {
-        'skill': 'React',
-        'exp': 65,
-        'pow': ['github projects', 'this website']
-    },
+    const toolsets = [
+        {
+            'skill': 'Pytest/Brownie',
+            'exp': 80,
+            'pow': ['job', 'github projects']
+        },
+        {
+            'skill': 'Hardhat/Ethers/Chai',
+            'exp': 80,
+            'pow': ['github projects']
+        },
+        {
+            'skill': 'Web3',
+            'exp': 70,
+            'pow': ['github projects', 'cert']
+        },
+        {
+            'skill': 'OpenZeppelin',
+            'exp': 70,
+            'pow': ['github projects', 'cert']
+        },
+        {
+            'skill': 'Git',
+            'exp': 70,
+            'pow': ['job', 'github repo']
+        },
+        {
+            'skill': 'Foundry',
+            'exp': 65,
+            'pow': ['github projects']
+        },
+        {
+            'skill': 'React',
+            'exp': 65,
+            'pow': ['github projects', 'this website']
+        },
 
 
     ]

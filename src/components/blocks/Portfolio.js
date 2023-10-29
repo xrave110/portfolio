@@ -27,6 +27,11 @@ const Projects = ({ currentState }) => {
             'link': 'https://github.com/xrave110/flashloan'
         },
         {
+            'title': 'Concentrated liquidity provider',
+            'desc': 'Provide simple exposure on concentrated liquidity position with automatic compounding system',
+            'link': 'https://github.com/0xBcamp/Concentrated-Liquidity-Compounder'
+        },
+        {
             'title': 'Smart Vault',
             'desc': 'Multi Signature Vault with rebalancing and compounding system',
             'link': 'https://github.com/0xBcamp/March-2023-Sierra'
