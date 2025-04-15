@@ -17,7 +17,9 @@ const Info = ({ currentState }) => {
                 <h6 className='badge bg-success rounded-pill'>Blockchain experience</h6>
                 <p className="info-paragraph">In DeFi since 2019 as a user. Smart contract programmer since 2022.
                     Participant of one year <a href='https://academy.moralis.io/' target="_blank" rel="noreferrer" className='a-color'>Moralis academy</a>. 
-                    <b>Winner in blockchain hackathons (Chainlink Fall 2022, Moralis Hackathon 2022):</b>
+                </p>
+                <p>
+                    <b> Winner in blockchain hackathons (Chainlink Fall 2022, Moralis Hackathon 2022):</b>
                     <ul>
                         
                         <li><a href='https://devpost.com/software/liquidity-wars' target="_blank" rel="noreferrer" className='a-color'>Chainlink Fall 2022 Hackathon</a> - Idea creator, smart contract designer, developer and tester for <b>Liquidity Wars</b> project</li>

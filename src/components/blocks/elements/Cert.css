@@ -9,16 +9,19 @@
 
 .card-body {
     padding: 2px;
+    
 }
 
 .cert-tittle {
     font-size: 11px;
     margin-bottom: 3px;
+    color: #d1d8bb;
 }
 
 .cert-text {
     font-size: inherit;
     margin-bottom: 3px;
+    color: #ffffff;
 }
 
 .my-btn {

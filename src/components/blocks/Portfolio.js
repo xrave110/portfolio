@@ -22,12 +22,12 @@ const Projects = ({ currentState }) => {
         },
         {
             'title': 'Cod3x Lend',
-            'desc': 'Innovative Lending Protocol with Isolated Liquidity and Rehypothecation Features.',
+            'desc': 'Innovative Lending Protocol with isolated liquidity and rehypothecation features.',
             'link': 'https://github.com/Cod3x-Labs/Cod3x-Lend',
         },
         {
             'title': 'Make-Fun',
-            'desc': 'Token Launchpad using a new Liquidity primitive based on UniV3 concentrated liquidity.',
+            'desc': 'Token Launchpad using a new liquidity primitive based on UniV3 concentrated liquidity.',
             'link': 'https://github.com/Cod3x-Labs/Make-Fun',
             'live': 'https://make.fun'
         },
