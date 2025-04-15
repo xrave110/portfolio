@@ -11,11 +11,11 @@ const techs = [
     },
     {
         'skill': 'C',
-        'exp': 80
+        'exp': 85
     },
     {
         'skill': 'Python',
-        'exp': 80
+        'exp': 75
     },
 
     {
@@ -33,19 +33,15 @@ const techs = [
             'exp': 80
         },
         {
-            'skill': 'Pytest/Apeworx',
+            'skill': 'OpenZeppelin, Solady',
+            'exp': 80
+        },
+        {
+            'skill': 'Hardhat/Apeworx',
             'exp': 75
         },
         {
-            'skill': 'Hardhat/Ethers/Chai',
-            'exp': 70
-        },
-        {
             'skill': 'Web3',
-            'exp': 70
-        },
-        {
-            'skill': 'OpenZeppelin, Solady',
             'exp': 70
         },
         {
