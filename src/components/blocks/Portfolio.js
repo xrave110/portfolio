@@ -4,9 +4,8 @@ import "./Portfolio.css"
 import Istqb from '../../certs/ISTQB.pdf'
 import Javascript from '../../certs/Javascript.pdf';
 import DappProgramming from '../../certs/DappProgramming.pdf';
-import Chainlink101 from '../../certs/Chainlink101.pdf';
 import Defi from '../../certs/Defi.pdf';
-import GameProgramming from '../../certs/GameProgramming.pdf';
+import ToolboxAi from '../../certs/ToolboxAi.pdf';
 import SmartContractProgramming from '../../certs/SmartContractProgramming.pdf';
 import SmartContractSecurity from '../../certs/SmartContractSecurity.pdf';
 import ReactWebDevelopment from '../../certs/ReactWebDevelopment.pdf';
@@ -16,10 +15,26 @@ import { v4 as uuidv4 } from 'uuid';
 const Projects = ({ currentState }) => {
     const listOfProjects = [
         {
+            'title': 'Options Tokens',
+            'desc': 'Modular token enabling users to exercise whitelisted contracts for discounted assets. Enhanced oracle support and compounding strategy integration.',
+            'link': 'https://github.com/Cod3x-Labs/Options-Token',
+            'live': 'https://explorer.mode.network/address/0x3B6eA0fA8A487c90007ce120a83920fd52b06f6D?tab=contract'
+        },
+        {
+            'title': 'Cod3x Lend',
+            'desc': 'Innovative Lending Protocol with Isolated Liquidity and Rehypothecation Features.',
+            'link': 'https://github.com/Cod3x-Labs/Cod3x-Lend',
+        },
+        {
+            'title': 'Make-Fun',
+            'desc': 'Token Launchpad using a new Liquidity primitive based on UniV3 concentrated liquidity.',
+            'link': 'https://github.com/Cod3x-Labs/Make-Fun',
+            'live': 'https://make.fun'
+        },
+        {
             'title': 'Liquidity Wars',
-            'desc': 'Game where players fight each other to gain as many LP rewards as they can by upgrading buildings and rob other players.',
+            'desc': 'Autonomous Decentralized No-Loss Strategy Game where players fight each other for LP rewards.',
             'link': 'https://github.com/Liquidity-Wars',
-            'live': 'https://liquiditywars.xyz/'
         },
         {
             'title': 'Flashloan',
@@ -37,34 +52,9 @@ const Projects = ({ currentState }) => {
             'link': 'https://github.com/0xBcamp/March-2023-Sierra'
         },
         {
-            'title': 'Multi Sig Vault',
-            'desc': 'Vault contract with multiple signatures with full unit tests',
-            'link': 'https://github.com/xrave110/MultiSigVault'
-        },
-        {
-            'title': 'OWNly Twitter',
-            'desc': 'Platform which allows to get funding for creators using NFTs - twitter feature',
-            'link': 'https://github.com/dukepat/OWNly_Twitter/tree/main/contracts'
-        },
-        {
             'title': 'User Dashboard',
             'desc': 'User dashboard created with moralis SDK',
             'link': 'https://github.com/xrave110/UserDashboard'
-        },
-        {
-            'title': 'DeFi brownie',
-            'desc': 'Full stack defi project with brownie',
-            'link': 'https://github.com/xrave110/defi_brownie'
-        },
-        {
-            'title': 'Lottery',
-            'desc': 'Lottery with usage of chainlink with integration and unit tests',
-            'link': 'https://github.com/xrave110/Lottery'
-        },
-        {
-            'title': 'Box',
-            'desc': 'Fully configured contract visualising work of transparent proxy',
-            'link': 'https://github.com/xrave110/box'
         },
 
     ];
@@ -73,6 +63,11 @@ const Projects = ({ currentState }) => {
             'title': 'ISTQB foundation level',
             'desc': 'Testing knowledge that can be put to practical use with terms and concepts that are used worldwide in the testing domain.',
             'link': Istqb
+        },
+        {
+            'title': 'AI toolbox',
+            'desc': 'Practical review of AI tools .',
+            'link': ToolboxAi
         },
         {
             'title': 'Javascript',
@@ -85,19 +80,9 @@ const Projects = ({ currentState }) => {
             'link': DappProgramming
         },
         {
-            'title': 'Chainlink 101',
-            'desc': 'Chainlink projects with oracles, verifiable randomness and oracle tests',
-            'link': Chainlink101
-        },
-        {
             'title': 'DeFi 201',
-            'desc': 'Advanced feaures of DeFi financial stack',
+            'desc': 'Advanced features of DeFi financial stack',
             'link': Defi
-        },
-        {
-            'title': 'Game Programming',
-            'desc': 'Ethereum game programming using NFTs in ERC721 and ERC1155 standard',
-            'link': GameProgramming
         },
         {
             'title': 'Smart Contracts',
@@ -106,7 +91,7 @@ const Projects = ({ currentState }) => {
         },
         {
             'title': 'Smart Contract Security',
-            'desc': 'Solidity best practises, upgradable contracts, proxies, pausable contracts',
+            'desc': 'Solidity best practices, upgradable contracts, proxies, pausable contracts',
             'link': SmartContractSecurity
         },
         {
@@ -140,7 +125,7 @@ const Projects = ({ currentState }) => {
             <div className="projects-container">
                 {createProjects()}
             </div>
-            <h6>Certificats</h6>
+            <h6>Certificates</h6>
             <div className="certs-container">
                 {createCerts()}
             </div>

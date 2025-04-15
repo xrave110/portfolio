@@ -4,107 +4,94 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 const Skills = ({ currentState }) => {
-    const techs = [{
+const techs = [
+    {
+        'skill': 'Solidity',
+        'exp': 90
+    },
+    {
         'skill': 'C',
-        'exp': 90,
-        'pow': ['job']
+        'exp': 80
     },
     {
         'skill': 'Python',
-        'exp': 85,
-        'pow': ['job', 'github projects']
+        'exp': 80
     },
-    {
-        'skill': 'Solidity',
-        'exp': 85,
-        'pow': ['github projects', 'cert']
-    },
+
     {
         'skill': 'Javascript',
-        'exp': 70,
-        'pow': ['github projects', 'cert']
+        'exp': 65
     },
     ]
     const toolsets = [
         {
-            'skill': 'Pytest/Brownie',
-            'exp': 80,
-            'pow': ['job', 'github projects']
+            'skill': 'Foundry',
+            'exp': 90
+        },
+        {
+            'skill': 'Git/Github',
+            'exp': 80
+        },
+        {
+            'skill': 'Pytest/Apeworx',
+            'exp': 75
         },
         {
             'skill': 'Hardhat/Ethers/Chai',
-            'exp': 80,
-            'pow': ['github projects']
+            'exp': 70
         },
         {
             'skill': 'Web3',
-            'exp': 70,
-            'pow': ['github projects', 'cert']
+            'exp': 70
         },
         {
-            'skill': 'OpenZeppelin',
-            'exp': 70,
-            'pow': ['github projects', 'cert']
+            'skill': 'OpenZeppelin, Solady',
+            'exp': 70
         },
         {
-            'skill': 'Git',
-            'exp': 70,
-            'pow': ['job', 'github repo']
-        },
-        {
-            'skill': 'Foundry',
-            'exp': 65,
-            'pow': ['github projects']
+            "skill": 'Tenderly',
+            'exp': 70
         },
         {
             'skill': 'React',
-            'exp': 65,
-            'pow': ['github projects', 'this website']
+            'exp': 60
         },
-
-
     ]
     const others = [
         {
             'skill': 'Polish',
-            'exp': 100,
-            'pow': ['native']
+            'exp': 100
         },
         {
-            'skill': 'DeFi',
-            'exp': 85,
-            'pow': ['github projects', 'cert']
+            'skill': 'DeFi (aave, uniswap, vaults, etc.)',
+            'exp': 90
         },
         {
-            'skill': 'Chainlink utils',
-            'exp': 85,
-            'pow': ['github projects', 'cert']
+            'skill': 'Oracles (TWAP, Chainlink)',
+            'exp': 85
         },
         {
             'skill': 'English',
-            'exp': 80,
-            'pow': ['this website']
+            'exp': 80
         },
         {
-            'skill': 'ISTQB',
-            'exp': 80,
-            'pow': ['job', 'cert']
+            'skill': 'Advanced tests, ISTQB',
+            'exp': 80
         },
         {
-            'skill': 'Ethereum blockchain',
-            'exp': 80,
-            'pow': ['cert']
+            'skill': 'EVM',
+            'exp': 80
+
         },
         {
             'skill': 'Cryptography',
-            'exp': 80,
-            'pow': ['job']
+            'exp': 70
         },
         {
-            'skill': 'NFTs',
-            'exp': 75,
-            'pow': ['github projects', 'cert']
+            'skill': 'AI agents, prompt engineering',
+            'exp': 65
         },
+        
     ]
     function createInfo(skills) {
         const colors = ['',
@@ -113,9 +100,9 @@ const Skills = ({ currentState }) => {
             'bg-warning',
             'bg-danger']
         let idx = 0;
-        let listOfSkills = skills.map(({ skill, exp, pow }) => {
+        let listOfSkills = skills.map(({ skill, exp }) => {
             idx %= colors.length;
-            return <Skill key={uuidv4()} skill={skill} exp={exp} pow={pow} color={colors[idx++]} />
+            return <Skill key={uuidv4()} skill={skill} exp={exp} color={colors[idx++]} />
         })
         return listOfSkills;
     }
@@ -124,18 +111,15 @@ const Skills = ({ currentState }) => {
             <h3>{currentState}</h3>
             <div className="section-container">
                 <h6 className="my-headers slide">Technologies</h6>
-                <h6 className="my-headers proof">PoW</h6>
             </div>
             {createInfo(techs)}
             <div className="section-container">
                 <h6 className="my-headers slide">Toolsets/Frameworks</h6>
-                <h6 className="my-headers proof">PoW</h6>
             </div>
 
             {createInfo(toolsets)}
             <div className="section-container">
                 <h6 className="my-headers slide">Other skills</h6>
-                <h6 className="my-headers proof">PoW</h6>
             </div>
             {createInfo(others)}
         </div >

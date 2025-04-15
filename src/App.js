@@ -39,7 +39,7 @@ function App() {
     while ((block.hash[0] !== '0' || block.hash[1] !== '0') &&
       (block.nonce < 1000)) {
       block.nonce++;
-      const message = block.id + block.prevHash + block.id + block.nonce.toString() + block.hash;
+      const message = block.prevHash + block.id + block.nonce.toString() + block.hash;
       // encode as UTF-8
       const msgBuffer = new TextEncoder().encode(message);
       // hash the message
