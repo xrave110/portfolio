@@ -9,7 +9,7 @@ const Info = ({ currentState }) => {
             <h3>{currentState}</h3>
             {/* <img src={avatar} className="bd-placeholder-img rounded-circle img-container" width="170" height="192" /> */}
             <div className="about-container">
-                <h6 className='badge bg-info rounded-pill'>Automotive experience</h6>
+                <h6 className='badge bg-info rounded-pill'>About me</h6>
                 <p className="info-paragraph">Experienced Software Engineer with over 6 years in embedded systems for the automotive industry and over 3 years in blockchain technology and cybersecurity. 
                     Specialized in DeFi protocols and smart contract development. Proficient in utilization AI tools with proper prompt engineering.
                     Strongly involved in unit and integration testing in automotive diagnostics components. Contributed to the development of user authentication systems, including PKI infrastructure, for vehicle charging stations.
