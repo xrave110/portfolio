@@ -14,12 +14,12 @@ const techs = [
         'exp': 85
     },
     {
-        'skill': 'Python',
+        'skill': 'Javascript',
         'exp': 75
     },
 
     {
-        'skill': 'Javascript',
+        'skill': 'Python',
         'exp': 65
     },
     ]
